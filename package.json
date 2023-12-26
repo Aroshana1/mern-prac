@@ -1,0 +1,19 @@
+{
+  "name": "mern-prac",
+  "version": "1.0.0",
+  "description": "library management",
+  "main": "app.js",
+  "repository": "aroshana dissanayake",
+  "author": "Aroshana Dissanayake <aroshanaapps@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
+    "nodemon": "^3.0.2"
+  }
+}
